@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket   = "roboshop-remote-state"
-    key = "firewalls"
+    bucket   = "roboshop9"
+    key = "firewall"
     region = "us-east-1"
     dynamodb_table = "roboshop-locking"
   }
